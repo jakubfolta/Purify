@@ -1,5 +1,5 @@
 def purify(group):
-  package = group
+  package = group[:] # or "package = list(group)"
   for number in group:
     if number % 2 != 0:
       package.remove(number)
