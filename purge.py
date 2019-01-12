@@ -16,3 +16,11 @@ def purging(numbers):
 
 print(purging([2, 3, 3, 4, 6, 7, 7, 9, 8, 8, 9]))
   
+def removeEvenNumbers(numbers):
+  for digit in numbers[:]:
+    if digit % 2 != 0:
+      numbers.remove(digit)
+  return numbers
+
+print(purge([1, 2, 4, 4, 9, 4, 3, 5, 7, 8, 8]))
+
