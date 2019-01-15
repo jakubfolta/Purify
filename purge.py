@@ -22,5 +22,10 @@ def removeEvenNumbers(numbers):
       numbers.remove(digit)
   return numbers
 
-print(purge([1, 2, 4, 4, 9, 4, 3, 5, 7, 8, 8]))
+print(removeEvenNumbers([1, 2, 4, 4, 9, 4, 3, 5, 7, 8, 8]))
+
+def displayOddNumbers(number):
+  return ''.join([str(x) for x in number if x % 2 != 0])
+
+print(displayOddNumbers([1, 2, 4, 4, 9, 4, 3, 5, 7, 8, 8]))
 
