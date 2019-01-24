@@ -21,3 +21,13 @@ def purify(horde):
   return [number for number in horde if number % 2 == 0] 
 
 print(purify([1, 2, 2, 3, 3, 6, 6]))
+
+
+def removeEvenNumber(numbers):
+  numbersCopy = numbers[:]
+  for x in numbers:
+    if x % 2 == 0:
+      numbersCopy.remove(x)
+  return numbersCopy
+
+print(removeEvenNumber([1, 1, 2, 3, 3, 4, 5, 6, 6, 7, 7]))
