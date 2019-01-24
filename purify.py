@@ -31,3 +31,8 @@ def removeEvenNumber(numbers):
   return numbersCopy
 
 print(removeEvenNumber([1, 1, 2, 3, 3, 4, 5, 6, 6, 7, 7]))
+
+def removeEven(horde):
+  return [number for number in horde if number % 2 == 0] 
+
+print(removeEven([1, 2, 2, 3, 5, 6, 8, 8, 3, 6, 6]))
