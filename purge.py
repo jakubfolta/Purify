@@ -25,17 +25,17 @@ def removeEvenNumbers(numbers):
 print(removeEvenNumbers([1, 2, 4, 4, 9, 4, 3, 5, 7, 8, 8]))
 
 def displayOddNumbers(number):
-  return ''.join([str(x) for x in number if x % 2 != 0])
+  return ', '.join([str(x) for x in number if x % 2 != 0])
 
 print(displayOddNumbers([1, 2, 4, 4, 9, 4, 3, 5, 7, 8, 8]))
 
 def removeOddNumber(numbers):
   secondSet = numbers[:]
-  for x in str(numbers):
+  for x in numbers:
     if x % 2 == 0:
       secondSet.remove(x)
   return(secondSet)
 
-print(removeOddNumber(2, 3, 4, 4, 8, 7, 4, 3, 2, 1))
+print(removeOddNumber([1, 3, 4, 4, 8, 7, 4, 3, 2, 1]))
     
 
