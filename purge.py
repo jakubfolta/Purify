@@ -29,3 +29,13 @@ def displayOddNumbers(number):
 
 print(displayOddNumbers([1, 2, 4, 4, 9, 4, 3, 5, 7, 8, 8]))
 
+def removeOddNumber(numbers):
+  secondSet = numbers[:]
+  for x in str(numbers):
+    if x % 2 == 0:
+      secondSet.remove(x)
+  return(secondSet)
+
+print(removeOddNumber(2, 3, 4, 4, 8, 7, 4, 3, 2, 1))
+    
+
