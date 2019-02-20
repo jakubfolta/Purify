@@ -36,6 +36,6 @@ def removeOddNumber(numbers):
       secondSet.remove(x)
   return(secondSet)
 
-print(removeOddNumber([1, 3, 4, 4, 8, 7, 4, 3, 2, 1]))
+print(removeOddNumber([1, 3, 2, 1, 3, 8, 6, 9, 5, 4]))
     
 
