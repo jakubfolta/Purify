@@ -39,13 +39,14 @@ print(removeOdd([1, 2, 2, 3, 5, 6, 8, 8, 3, 6, 6]))
 
 
 def remove_even_number(numbers):
-  digits = list(str(numbers))
-  for x in digits:
+  numbers = list(str(numbers))
+  print(numbers)
+  for x in str(numbers):
     if x % 2 != 0:
-      numbers.remove(x)
+      digits.remove(x)
   return numbers
 
-print(remove_even_number(2132345))
+print(remove_even_number(21123332345))
       
 
 
