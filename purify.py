@@ -36,3 +36,36 @@ def removeOdd(horde):
   return [number for number in horde if number % 2 == 0] 
 
 print(removeOdd([1, 2, 2, 3, 5, 6, 8, 8, 3, 6, 6]))
+
+
+def remove_even_number(numbers):
+  digits = list(str(numbers))
+  for x in digits:
+    if x % 2 != 0:
+      numbers.remove(x)
+  return numbers
+
+print(remove_even_number(2132345))
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
